@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158240A917D06C5000F2F981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158240A817D06C5000F2F981 /* UIKit.framework */; };
+		158240AB17D06C5000F2F981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158240AA17D06C5000F2F981 /* Foundation.framework */; };
+		158240AD17D06C5000F2F981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158240AC17D06C5000F2F981 /* CoreGraphics.framework */; };
+		158240B317D06C5000F2F981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 158240B117D06C5000F2F981 /* InfoPlist.strings */; };
+		158240B517D06C5000F2F981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158240B417D06C5000F2F981 /* main.m */; };
+		158240B917D06C5000F2F981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158240B817D06C5000F2F981 /* AppDelegate.m */; };
+		158240BB17D06C5100F2F981 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 158240BA17D06C5100F2F981 /* Default.png */; };
+		158240BD17D06C5100F2F981 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 158240BC17D06C5100F2F981 /* Default@2x.png */; };
+		158240BF17D06C5100F2F981 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 158240BE17D06C5100F2F981 /* Default-568h@2x.png */; };
+		158240C217D06C5100F2F981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158240C117D06C5100F2F981 /* ViewController.m */; };
+		158240C517D06C5100F2F981 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158240C317D06C5100F2F981 /* ViewController.xib */; };
+		158240CE17D06C9600F2F981 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 158240CD17D06C9600F2F981 /* HTCopyableLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		158240A517D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCopyableLabelSimpleDemoByCode4App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		158240A817D06C5000F2F981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		158240AA17D06C5000F2F981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		158240AC17D06C5000F2F981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		158240B017D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTCopyableLabelSimpleDemoByCode4App-Info.plist"; sourceTree = "<group>"; };
+		158240B217D06C5000F2F981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		158240B417D06C5000F2F981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		158240B617D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTCopyableLabelSimpleDemoByCode4App-Prefix.pch"; sourceTree = "<group>"; };
+		158240B717D06C5000F2F981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		158240B817D06C5000F2F981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		158240BA17D06C5100F2F981 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		158240BC17D06C5100F2F981 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		158240BE17D06C5100F2F981 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		158240C017D06C5100F2F981 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		158240C117D06C5100F2F981 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		158240C417D06C5100F2F981 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		158240CC17D06C9600F2F981 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
+		158240CD17D06C9600F2F981 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		158240A217D06C5000F2F981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158240A917D06C5000F2F981 /* UIKit.framework in Frameworks */,
+				158240AB17D06C5000F2F981 /* Foundation.framework in Frameworks */,
+				158240AD17D06C5000F2F981 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1582409C17D06C5000F2F981 = {
+			isa = PBXGroup;
+			children = (
+				158240CB17D06C8400F2F981 /* HTCopyableLabel */,
+				158240AE17D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App */,
+				158240A717D06C5000F2F981 /* Frameworks */,
+				158240A617D06C5000F2F981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		158240A617D06C5000F2F981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				158240A517D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		158240A717D06C5000F2F981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158240A817D06C5000F2F981 /* UIKit.framework */,
+				158240AA17D06C5000F2F981 /* Foundation.framework */,
+				158240AC17D06C5000F2F981 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		158240AE17D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App */ = {
+			isa = PBXGroup;
+			children = (
+				158240B717D06C5000F2F981 /* AppDelegate.h */,
+				158240B817D06C5000F2F981 /* AppDelegate.m */,
+				158240C017D06C5100F2F981 /* ViewController.h */,
+				158240C117D06C5100F2F981 /* ViewController.m */,
+				158240C317D06C5100F2F981 /* ViewController.xib */,
+				158240AF17D06C5000F2F981 /* Supporting Files */,
+			);
+			path = HTCopyableLabelSimpleDemoByCode4App;
+			sourceTree = "<group>";
+		};
+		158240AF17D06C5000F2F981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				158240B017D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App-Info.plist */,
+				158240B117D06C5000F2F981 /* InfoPlist.strings */,
+				158240B417D06C5000F2F981 /* main.m */,
+				158240B617D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App-Prefix.pch */,
+				158240BA17D06C5100F2F981 /* Default.png */,
+				158240BC17D06C5100F2F981 /* Default@2x.png */,
+				158240BE17D06C5100F2F981 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		158240CB17D06C8400F2F981 /* HTCopyableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				158240CC17D06C9600F2F981 /* HTCopyableLabel.h */,
+				158240CD17D06C9600F2F981 /* HTCopyableLabel.m */,
+			);
+			name = HTCopyableLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		158240A417D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158240C817D06C5100F2F981 /* Build configuration list for PBXNativeTarget "HTCopyableLabelSimpleDemoByCode4App" */;
+			buildPhases = (
+				158240A117D06C5000F2F981 /* Sources */,
+				158240A217D06C5000F2F981 /* Frameworks */,
+				158240A317D06C5000F2F981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCopyableLabelSimpleDemoByCode4App;
+			productName = HTCopyableLabelSimpleDemoByCode4App;
+			productReference = 158240A517D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1582409D17D06C5000F2F981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eric Wang";
+			};
+			buildConfigurationList = 158240A017D06C5000F2F981 /* Build configuration list for PBXProject "HTCopyableLabelSimpleDemoByCode4App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1582409C17D06C5000F2F981;
+			productRefGroup = 158240A617D06C5000F2F981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158240A417D06C5000F2F981 /* HTCopyableLabelSimpleDemoByCode4App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		158240A317D06C5000F2F981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158240B317D06C5000F2F981 /* InfoPlist.strings in Resources */,
+				158240BB17D06C5100F2F981 /* Default.png in Resources */,
+				158240BD17D06C5100F2F981 /* Default@2x.png in Resources */,
+				158240BF17D06C5100F2F981 /* Default-568h@2x.png in Resources */,
+				158240C517D06C5100F2F981 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158240A117D06C5000F2F981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158240B517D06C5000F2F981 /* main.m in Sources */,
+				158240B917D06C5000F2F981 /* AppDelegate.m in Sources */,
+				158240C217D06C5100F2F981 /* ViewController.m in Sources */,
+				158240CE17D06C9600F2F981 /* HTCopyableLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		158240B117D06C5000F2F981 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158240B217D06C5000F2F981 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		158240C317D06C5100F2F981 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				158240C417D06C5100F2F981 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		158240C617D06C5100F2F981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		158240C717D06C5100F2F981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		158240C917D06C5100F2F981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelSimpleDemoByCode4App/HTCopyableLabelSimpleDemoByCode4App-Prefix.pch";
+				INFOPLIST_FILE = "HTCopyableLabelSimpleDemoByCode4App/HTCopyableLabelSimpleDemoByCode4App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		158240CA17D06C5100F2F981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelSimpleDemoByCode4App/HTCopyableLabelSimpleDemoByCode4App-Prefix.pch";
+				INFOPLIST_FILE = "HTCopyableLabelSimpleDemoByCode4App/HTCopyableLabelSimpleDemoByCode4App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		158240A017D06C5000F2F981 /* Build configuration list for PBXProject "HTCopyableLabelSimpleDemoByCode4App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158240C617D06C5100F2F981 /* Debug */,
+				158240C717D06C5100F2F981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158240C817D06C5100F2F981 /* Build configuration list for PBXNativeTarget "HTCopyableLabelSimpleDemoByCode4App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158240C917D06C5100F2F981 /* Debug */,
+				158240CA17D06C5100F2F981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1582409D17D06C5000F2F981 /* Project object */;
+}
